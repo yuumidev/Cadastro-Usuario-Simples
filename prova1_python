@@ -1,0 +1,15 @@
+email = "livia@gmail.com"
+senha = "12345678"
+
+email_in = input("Digite seu email: ")
+senha_in = input("Digite sua senha: ")
+
+while True:
+    if email==email_in and senha==senha_in:
+        print("Bem vindo!")
+        break
+    elif email!=email_in and senha!=senha_in:
+        print("Email ou senha errado. Digite novamente.")
+        email_in = input("Digite seu email: ")
+        senha_in = input("Digite sua senha: ")
+    continue
